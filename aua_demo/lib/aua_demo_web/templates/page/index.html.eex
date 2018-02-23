@@ -1,0 +1,18 @@
+<div class="jumbotron">
+  <h2><%= gettext "Welcome to %{name}!", name: "Tech Talks" %></h2>
+  <p class="lead text-muted">Introduction to Elixir<br />a functional, meta-programming-aware language built on top of the Erlang VM</p>
+</div>
+
+<div class="row">
+  <div class="col-md-8">
+    <div class="form-group">
+      <input id="num" type="text" placeholder="Type a number:" class="form-control">
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="form-group">
+      <input type="submit" class="btn btn-primary btn-block" value="Calculate!">
+    </div>
+  </div>
+</div>
+</div>
