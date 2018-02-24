@@ -6,7 +6,7 @@ There are two main applications: ```aua_demo``` and ```factorial```.
 
 The first is a ```Phoenix``` web applciation that in order to calculate factorial of a given number, send a message to ```Factorial``` module.
 
-The router(```aua_demo/lib/router.ex```) receives the calculated number from ```Factorial``` and displays the message.
+The router(```aua_demo/lib/router.ex```) receives the calculated number from ```Factorial``` and forwards the result to the ```page_controller.ex``` which in turn displays the message.
 
 ## Starting The Apps
 
